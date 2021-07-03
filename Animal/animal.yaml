@@ -1,0 +1,41 @@
+cat1: &c1
+  name: Kitty
+  color: pink
+  age: 3
+  gender: female
+
+cat2: &c2
+  name: Tom
+  color: gray
+  age: 7
+  gender: male
+
+cat3: &c3
+  name: "吾皇"
+  color: "黑白条纹"
+  age : 5
+  gender: female
+
+default_c:
+  <<: *c3
+
+dog1: &d1
+  name: daodao
+  color: white
+  age: 3
+  gender: male
+
+dog2: &d2
+  name: "铁军"
+  color: "brown"
+  age: 4
+  gender: male
+
+dog3: &d3
+  name: "巴扎黑"
+  color: yellow
+  age: 5
+  gender: male
+
+default_d:
+  <<: *d3
