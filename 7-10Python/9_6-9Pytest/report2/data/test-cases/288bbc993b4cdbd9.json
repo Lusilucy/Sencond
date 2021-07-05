@@ -1,0 +1,85 @@
+{
+  "uid" : "288bbc993b4cdbd9",
+  "name" : "test_c",
+  "fullName" : "test_demo.TestDemo#test_c",
+  "historyId" : "ace6ebf30de2c207a5ecc24dcfbbb394",
+  "time" : {
+    "start" : 1625477454678,
+    "stop" : 1625477454678,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1625477454625,
+      "stop" : 1625477454670,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc1943af7ec76691",
+      "name" : "stdout",
+      "source" : "cc1943af7ec76691.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Demo1"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "18895-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "288bbc993b4cdbd9.json",
+  "parameterValues" : [ ]
+}

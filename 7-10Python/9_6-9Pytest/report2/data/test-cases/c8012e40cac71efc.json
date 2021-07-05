@@ -1,0 +1,133 @@
+{
+  "uid" : "c8012e40cac71efc",
+  "name" : "test_add[3-4]",
+  "fullName" : "test_demo.TestDemo#test_add",
+  "historyId" : "36754cb5eaed870bb8e13b40f74fd441",
+  "time" : {
+    "start" : 1625478492250,
+    "stop" : 1625478492250,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1625478492193,
+      "stop" : 1625478492238,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3037e6b572c71b27",
+      "name" : "stdout",
+      "source" : "3037e6b572c71b27.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Demo1"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "19248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcd64cba953b76e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625478367342,
+        "stop" : 1625478367342,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae1b9d828673d100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625478187099,
+        "stop" : 1625478187100,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "768b962f344d0c52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625477743750,
+        "stop" : 1625477743750,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25a0a9d072e40657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625477454682,
+        "stop" : 1625477454683,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "da41878d3bd9da05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625474685808,
+        "stop" : 1625474685808,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8012e40cac71efc.json",
+  "parameterValues" : [ "3", "4" ]
+}

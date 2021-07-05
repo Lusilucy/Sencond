@@ -1,0 +1,85 @@
+{
+  "uid" : "5c500b2f64d943d9",
+  "name" : "test_demo[env1]",
+  "fullName" : "test_demo.TestDemo2#test_demo",
+  "historyId" : "1964d5fd85e677e0eb9ad0f3f2adfb44",
+  "time" : {
+    "start" : 1625477454699,
+    "stop" : 1625477454700,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1625477454625,
+      "stop" : 1625477454670,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4cf478fdff7405e",
+      "name" : "stdout",
+      "source" : "f4cf478fdff7405e.txt",
+      "type" : "text/plain",
+      "size" : 55
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "18895-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "{'dev': '127.0.0.2'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c500b2f64d943d9.json",
+  "parameterValues" : [ "{'dev': '127.0.0.2'}" ]
+}
