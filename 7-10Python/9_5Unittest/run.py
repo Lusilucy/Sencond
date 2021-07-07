@@ -12,5 +12,5 @@ if __name__ == '__main__':
     # unittest.TextTestRunner(verbosity=2).run(discover)
 
     with open(report_file, "wb") as report:
-        runner = HTMLTestRunner(stream=report, title= report_title, description=desc)
+        runner = HTMLTestRunner(stream=report, title=report_title, description=desc)
         runner.run(discover)
