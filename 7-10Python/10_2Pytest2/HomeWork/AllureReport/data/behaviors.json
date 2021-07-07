@@ -2,82 +2,94 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_add_int[int1]",
-    "uid" : "da51c95b3a2d766a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625665255398,
-      "stop" : 1625665255398,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "[1, 2, 3]" ]
-  }, {
-    "name" : "test_add_int[int2]",
-    "uid" : "b594b862bd6c09e9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625665255401,
-      "stop" : 1625665255401,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "[4, 6, 10]" ]
-  }, {
-    "name" : "test_add_float[float1]",
-    "uid" : "731e1530781ab818",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625665255405,
-      "stop" : 1625665255405,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "[0.1, 0.2, 0.3]" ]
-  }, {
-    "name" : "test_add_float[float2]",
-    "uid" : "1fcb98fa59faef0d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625665255409,
-      "stop" : 1625665255409,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "[0.4, 0.6, 1.0]" ]
-  }, {
-    "name" : "test_div[div1]",
-    "uid" : "4ee0bbe32743afea",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625665255413,
-      "stop" : 1625665255413,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "[2, 1, 2]" ]
-  }, {
-    "name" : "test_div[div2]",
-    "uid" : "215c36e1ace81bd",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625665255416,
-      "stop" : 1625665255417,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "[2, 0, 0]" ]
+    "name" : "计算器",
+    "children" : [ {
+      "name" : "加法",
+      "children" : [ {
+        "name" : "test_add_int[int1]",
+        "uid" : "b3f5fa270b369b3a",
+        "parentUid" : "d8eb582df3466bed95dff337424a77c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625669119736,
+          "stop" : 1625669119736,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 2, 3]" ]
+      }, {
+        "name" : "test_add_int[int2]",
+        "uid" : "c657f5722b26f7f9",
+        "parentUid" : "d8eb582df3466bed95dff337424a77c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625669119740,
+          "stop" : 1625669119740,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 6, 10]" ]
+      }, {
+        "name" : "加法-小数-float1",
+        "uid" : "5f6783dac47a22b4",
+        "parentUid" : "d8eb582df3466bed95dff337424a77c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625669119742,
+          "stop" : 1625669119743,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3, 'float1']" ]
+      }, {
+        "name" : "加法-小数-float2",
+        "uid" : "246d094e66152932",
+        "parentUid" : "d8eb582df3466bed95dff337424a77c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625669119745,
+          "stop" : 1625669119746,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.4, 0.6, 1.0, 'float2']" ]
+      } ],
+      "uid" : "d8eb582df3466bed95dff337424a77c1"
+    }, {
+      "name" : "除法",
+      "children" : [ {
+        "name" : "test_div[div1]",
+        "uid" : "f8f5077a2a1c8eb4",
+        "parentUid" : "78aab7b3675ffe5a78e1394cdc96b8dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625669119748,
+          "stop" : 1625669119749,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 1, 2]" ]
+      }, {
+        "name" : "test_div[除数为0]",
+        "uid" : "1bc65fdea2f8d9a8",
+        "parentUid" : "78aab7b3675ffe5a78e1394cdc96b8dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625669119753,
+          "stop" : 1625669119753,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 0, 0]" ]
+      } ],
+      "uid" : "78aab7b3675ffe5a78e1394cdc96b8dc"
+    } ],
+    "uid" : "ee5eb3df34ef2c4d432b78c75f7f55b6"
   } ]
 }

@@ -1,4 +1,4 @@
-# ✅TODO Python 进阶
+# TODO Python 进阶✅
 """pip✅"""
 # pip3.8 install ** -i http://pypi.douban.com/simple/ --trust-host pypi.douban.com
 # pip3.8 freeze > requirements.txt
@@ -80,6 +80,7 @@ import time
 # deactivate
 
 """unittest✅"""
+# 9_5Unittest
 
 """pytest✅"""
 # 9_6-9Pytest
@@ -89,4 +90,8 @@ import time
 """数据驱动✅"""
 # 同上
 """测试报告✅"""
-# 同上
+# pytest --alluredir ./result
+# 1
+# allure serve ./result
+# 2
+# allure generata ./result -o ./report --clean

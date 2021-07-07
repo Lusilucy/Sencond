@@ -1,4 +1,4 @@
-# ✅TODO Python 基础语法
+# TODO Python 基础语法✅
 import json
 import random
 
@@ -111,6 +111,7 @@ def out_func():
 #
 # fun1(1, 2, c=3)
 
+# todo lambda表达式
 """lambda表达式✅❓"""
 # fun2 = lambda a, b: print(a + b)
 # fun2(3, 4)

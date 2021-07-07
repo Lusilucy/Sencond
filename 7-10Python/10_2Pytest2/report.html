@@ -429,7 +429,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 07-Jul-2021 at 19:57:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 07-Jul-2021 at 20:02:18 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -448,7 +448,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.8.8</td></tr></table>
     <h2>Summary</h2>
-    <p>13 tests ran in 0.11 seconds. </p>
+    <p>13 tests ran in 0.10 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">9 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">4 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -468,7 +468,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log">self = &lt;test_cal_fixture.TestCal object at 0x7fb3b444f5e0&gt;, a = 0.1, b = 0.2, c = 0.3<br/><br/>    @pytest.mark.parametrize(&quot;a,b,c&quot;, data[&quot;add_f&quot;][0], ids=data[&quot;add_f&quot;][1])<br/>    def test_add_float(self, a, b, c):<br/>&gt;       assert round(self.cal.add(a, b), 2) == c<br/><span class="error">E       AttributeError: &#x27;TestCal&#x27; object has no attribute &#x27;cal&#x27;</span><br/><br/>test_cal_fixture.py:28: AttributeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>开始计算
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>计算结束
+<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
@@ -477,7 +479,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log">self = &lt;test_cal_fixture.TestCal object at 0x7fb3b444f7c0&gt;, a = 0.4, b = 0.6, c = 1.0<br/><br/>    @pytest.mark.parametrize(&quot;a,b,c&quot;, data[&quot;add_f&quot;][0], ids=data[&quot;add_f&quot;][1])<br/>    def test_add_float(self, a, b, c):<br/>&gt;       assert round(self.cal.add(a, b), 2) == c<br/><span class="error">E       AttributeError: &#x27;TestCal&#x27; object has no attribute &#x27;cal&#x27;</span><br/><br/>test_cal_fixture.py:28: AttributeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>开始计算
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>计算结束
+<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
@@ -486,7 +490,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log">self = &lt;test_cal_fixture.TestCal object at 0x7fb3b448a040&gt;, a = 2, b = 1, c = 2<br/><br/>    @pytest.mark.parametrize(&quot;a,b,c&quot;, data[&quot;div&quot;][0], ids=data[&quot;div&quot;][1])<br/>    def test_div(self, a, b, c):<br/>        try:<br/>&gt;           assert self.cal.div(a, b) == c<br/><span class="error">E           AttributeError: &#x27;TestCal&#x27; object has no attribute &#x27;cal&#x27;</span><br/><br/>test_cal_fixture.py:33: AttributeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>开始计算
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>计算结束
+<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
@@ -495,7 +501,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log">self = &lt;test_cal_fixture.TestCal object at 0x7fb3b44841c0&gt;, a = 2, b = 0, c = 0<br/><br/>    @pytest.mark.parametrize(&quot;a,b,c&quot;, data[&quot;div&quot;][0], ids=data[&quot;div&quot;][1])<br/>    def test_div(self, a, b, c):<br/>        try:<br/>&gt;           assert self.cal.div(a, b) == c<br/><span class="error">E           AttributeError: &#x27;TestCal&#x27; object has no attribute &#x27;cal&#x27;</span><br/><br/>test_cal_fixture.py:33: AttributeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>开始计算
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>计算结束
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -504,7 +512,12 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>我要在开始之前自动执行一下子
+连接数据库
+<br/> ------------------------------Captured stdout call------------------------------ <br/>装饰器方法
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>关闭数据库
+秀完了
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -513,7 +526,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>我要在开始之前自动执行一下子
+<br/> ------------------------------Captured stdout call------------------------------ <br/>我什么都没加
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>秀完了
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -522,7 +538,17 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>我是来自conftest的天秀！
+不管谁调我，我都只在整个测试最开始秀一遍就完事
+我要在开始之前自动执行一下子
+开始登录
+连接数据库
+<br/> ------------------------------Captured stdout call------------------------------ <br/>一顿操作猛如虎
+数据库用户名，密码
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>关闭数据库
+结束登录
+秀完了
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -531,7 +557,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>开始计算
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>计算结束
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -540,7 +568,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>开始计算
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>计算结束
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -549,7 +579,11 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>不管谁调我，我都只在整个模块module秀一遍就完事
+我要在开始之前自动执行一下子
+<br/> ------------------------------Captured stdout call------------------------------ <br/>看秀儿
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>秀完了
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -558,7 +592,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>我要在开始之前自动执行一下子
+<br/> ------------------------------Captured stdout call------------------------------ <br/>继续看秀儿
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>秀完了
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -567,7 +604,44 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>我要在开始之前自动执行一下子
+<br/> ------------------------------Captured stdout call------------------------------ <br/>楼上的太秀了
+1 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+2 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+3 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+4 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+5 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+6 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+7 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+8 我只想做个安静的美女子
+---------我是个分割线----------
+hahahaha
+楼上的太秀了
+9 我只想做个安静的美女子
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>秀完了
+还想看？没有了！跪安吧！
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -576,4 +650,5 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log"> ----------------------------Captured stdout teardown---------------------------- <br/>886~
+<br/></div></td></tr></tbody></table></body></html>

@@ -9,6 +9,7 @@ from selenium import webdriver
 @allure.feature("百度搜索功能")
 class TestBaiDu:
     @allure.story("搜索词条")
+    # title传参方法
     @allure.title("{data}")
     @pytest.mark.parametrize("data", ["allure", "selenium", "appium"])
     def test_demo(self, data):

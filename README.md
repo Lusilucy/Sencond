@@ -13,10 +13,10 @@
 
 ### &2 进阶
 #### 📒Notes:
-##### 1、[进阶笔记](7-10Python/Notes/9practice.py)
-##### 2、[Unittest](./7-10Python/9_5Unittest)
-##### 3、[Pytest](./7-10Python/9_6-9Pytest)
-##### 4、[多线程](./7-10Python/9_2Thread)
-#### 实战1：
-
-#### 实战2：
+- 1、[进阶笔记](7-10Python/Notes/9practice.py)
+- 2、[Unittest](./7-10Python/9_5Unittest)
+- 3、[Pytest](./7-10Python/9_6-9Pytest)
+- 4、[多线程](./7-10Python/9_2Thread)
+- 5、[pytest实战进阶笔记](./7-10Python/Notes/10practice.py)
+#### 实战1：[Calculator](./7-10Python/10_1Pytest1)
+#### 实战2：[fixture、allure改造](./7-10Python/10_2Pytest2)
