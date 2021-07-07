@@ -1,0 +1,65 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'TestCal' object has no attribute 'cal'",
+      "children" : [ {
+        "name" : "test_add_float[float1]",
+        "uid" : "67eb9974a435d9b6",
+        "parentUid" : "a45386e11a482cfee8d96f42f59c1926",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625659607910,
+          "stop" : 1625659607910,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.1", "0.2", "0.3" ]
+      }, {
+        "name" : "test_add_float[float2]",
+        "uid" : "c60ae836ac607e5f",
+        "parentUid" : "a45386e11a482cfee8d96f42f59c1926",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625659607956,
+          "stop" : 1625659607956,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.4", "0.6", "1.0" ]
+      }, {
+        "name" : "test_div[div1]",
+        "uid" : "730c255f4b1324ac",
+        "parentUid" : "a45386e11a482cfee8d96f42f59c1926",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625659607962,
+          "stop" : 1625659607962,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "1", "2" ]
+      }, {
+        "name" : "test_div[div2]",
+        "uid" : "ce9ce3b85b19129c",
+        "parentUid" : "a45386e11a482cfee8d96f42f59c1926",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625659607968,
+          "stop" : 1625659607968,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "0", "0" ]
+      } ],
+      "uid" : "a45386e11a482cfee8d96f42f59c1926"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
