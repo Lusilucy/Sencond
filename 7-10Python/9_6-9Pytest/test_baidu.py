@@ -10,8 +10,8 @@ from selenium import webdriver
 class TestBaiDu:
     @allure.story("搜索词条")
     # title传参方法
-    @allure.title("{data}")
-    @pytest.mark.parametrize("data", ["allure", "selenium", "appium"])
+    @allure.title("{datas}")
+    @pytest.mark.parametrize("datas", ["allure", "selenium", "appium"])
     def test_demo(self, data):
         with allure.step("1）打开浏览器进入百度"):
             driver = webdriver.Chrome(executable_path="/Users/lusi/Downloads/chromedriver")

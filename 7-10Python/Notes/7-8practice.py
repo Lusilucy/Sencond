@@ -239,8 +239,8 @@ def out_func():
 # a = json.dumps([1, 2, 3])
 # print(a)
 # print(json.loads(a))
-# json.dump("abc", open("./data.json", "w"))
-# print(json.load(open("./data.json")))
+# json.dump("abc", open("./datas.json", "w"))
+# print(json.load(open("./datas.json")))
 
 """try、except、else、finally、raise✅"""
 
